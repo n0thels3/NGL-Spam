@@ -53,4 +53,3 @@ except:
   
 for i in range(int(threads)):
     threading.Thread(target=spam, args=(message, username)).start()
-spam(message=message, target=username)
